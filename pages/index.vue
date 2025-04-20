@@ -28,7 +28,7 @@ useHead({
 const profile = reactive({
   name: "gregandcin",
   bio: "Cheap Gamer, Bad Blader",
-  featuredVideo: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+  featuredVideo: "https://youtu.be/gq5Lcbxi9ek?si=06VEYuHQLSjJ0vjR",
   videoCaption: "Check out my latest video!",
   links: [
     {
