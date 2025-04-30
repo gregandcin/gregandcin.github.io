@@ -1,10 +1,37 @@
+---
+title: "Beyblade Midwest 2025"
+description: "Largest Beyblade event in the Midwest USA region"
+---
+
 # BEYBLADE MIDWEST 2025
+
+::multi-image
+---
+images:
+  - image: /MBC_Logo.png
+    alt: Midwest Beyblade Club Logo
+
+---
+::
 
 Welcome to BEYBLADE MIDWEST 2025, the largest event celebrating all things Beyblade across the Midwest USA region. Whether you want to prove you're the best in the region in Metal Fight or X, participate in some fun contests, or just hang out in our free play area, there is something for everyone!
 
 - When: July 5th and 6th, 2025
 - Where: Marriott Chicago O’Hare Salon Rooms 8-10. 8535 W Higgins Rd, Chicago, Illinois 60631
 - Tickets: $25 One Day Pass, $45 2 Day Pass, $10 Spectator Pass
+
+## Sponsors
+
+::multi-image
+---
+images:
+  - image: /BeysAndBricks.png
+    alt: BeysAndBricks logo
+  - image: /RipcordArena.png
+    alt: Ripcord Arena logo
+---
+::
+
 
 ## Events
 
