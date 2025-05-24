@@ -33,6 +33,8 @@ images:
     alt: Ripcord Arena logo
   - image: /MBC_Logo.png
     alt: Midwest Beyblade Club Logo
+  - image: /N3D2023.png
+    alt: Noozle3D Logo
 ---
 ::
 
@@ -44,17 +46,29 @@ We are hosting 4 Tournaments this year:
 - [Metal Fight Limited](https://worldbeyblade.org/Thread-BEYBLADE-MIDWEST-2025-METAL-FIGHT-LIMITED-EVENT--116684)
   - 11:00 AM to 1:00PM
   - Max 24 Players
+  - Prizes:
+    - Top 3 Pool: 2 Lightning L-Drago Customize Set Combos, Gold Burn Phoenix, Purple Poison Serpent
+    - Top Cut: $5 BeysAndBricks Gift Card
 - [X Standard](https://worldbeyblade.org/Thread-BEYBLADE-MIDWEST-2025-X-STANDARD-MAIN-EVENT--116683)
   - 2:00 PM to 8:00PM
   - Max 120 Players
+  - Prizes:
+    - Top 3 Pool: $100 Noozle3D Gift Card, TBD
+    - Top Cut: $5 Ripcord Arena Gift Card
 - [X Team Battle](https://worldbeyblade.org/Thread-BEYBLADE-MIDWEST-2025-X-TEAM-BATTLE-EVENT--116682)
   - 11:00 AM to 2:00PM
   - Max 52 Players
+  - Prizes:
+    - Top 3 Teams: TBD
+    - Top Cut: $5 Ripcord Arena Gift Card
 - [X Limited](https://worldbeyblade.org/Thread-BEYBLADE-MIDWEST-2025-X-LIMITED-EVENT--116679)
   - 2:00 AM to 8:00PM
   - Max 64 Players
+  - Prizes:
+    - Top 3 Pool: $100 Noozle3D Gift Card, TBD
+    - Top Cut: $5 Ripcord Arena Gift Card
 
-Along side these, we will have some fun side acitivities in between tournaments!
+Along side these, we will have some fun side activities in between tournaments!
 
 - Learn to play
 - Cosplay contest
