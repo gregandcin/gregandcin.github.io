@@ -62,7 +62,7 @@ We are hosting 4 Tournaments this year:
     - Top 3 Teams: TBD
     - Top Cut: $5 Ripcord Arena Gift Card
 - [X Limited](https://worldbeyblade.org/Thread-BEYBLADE-MIDWEST-2025-X-LIMITED-EVENT--116679)
-  - 2:00 AM to 8:00PM
+  - 3:00 PM to 8:00PM
   - Max 64 Players
   - Prizes:
     - Top 3 Pool: $100 Noozle3D Gift Card, TBD
