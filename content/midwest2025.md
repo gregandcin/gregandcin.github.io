@@ -65,13 +65,19 @@ We are hosting 4 Tournaments this year:
   - 3:00 PM to 8:00PM
   - Max 64 Players
   - Prizes:
-    - Top 3 Pool: $100 Noozle3D Gift Card, TBD
+    - Top 3 Pool: $50 Noozle3D Gift Card, TBD
     - Top Cut: $5 Ripcord Arena Gift Card
 
 Along side these, we will have some fun side activities in between tournaments!
 
 - Learn to play
 - Cosplay contest
+  - Must be Beyblade related!
+  - Judged by a panel of Beyblade fanatics
+  - Winner takes home a $50 Noozle3D Gift Card!
 - Best Looking Deck
+  - Make the most appealing 3 Bey deck you can think of!
+  - Judged by a panel of some of the best deck builders in the area
+  - Winner gets $10 of Ripcord Arena credit!
 - And more!
 
