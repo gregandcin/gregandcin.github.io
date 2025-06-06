@@ -9,9 +9,15 @@ export default defineNuxtConfig({
     "@nuxt/icon",
     "@nuxtjs/color-mode",
     "@nuxt/content",
+    "@nuxt/scripts",
   ],
   vite: {
     plugins: [tailwindcss()],
   },
   css: ["~/assets/app.css"],
+  icon: {
+    // mode: "css",
+    cssLayer: "base",
+  },
 });
+

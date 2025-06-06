@@ -28,20 +28,21 @@ useHead({
 const profile = reactive({
   name: "gregandcin",
   bio: "Cheap Gamer, Bad Blader",
-  featuredVideo: "https://youtu.be/gq5Lcbxi9ek?si=06VEYuHQLSjJ0vjR",
+  featuredVideo: "gq5Lcbxi9ek",
   videoCaption: "Check out my latest video!",
   links: [
     {
       id: 1,
       title: "BEYBLADE MIDWEST 2025!",
-      url: "midwest2025",
-      icon: "game-icons:spinning-top",
+      url: "https://midwestbeyblade.com/pages/beyblade-midwest-2025",
+      icon: "mingcute:ice-cream-2-fill",
       style: "btn-info btn-xl",
+      iconStyle: "color: #ff6900",
     },
     {
       id: 2,
       title: "Next Beyblade Event!",
-      url: "https://worldbeyblade.org/Thread-HOMETOWN-HEROES-BEYBLADE-X-VOL-14--117114",
+      url: "https://worldbeyblade.org/Thread-HOMETOWN-HEROES-BEYBLADE-X-VOL-14-BEYBLADE-MIDWEST-PREVIEW",
       icon: "game-icons:spinning-top",
       style: "btn-accent",
     },
@@ -80,15 +81,6 @@ const profile = reactive({
 });
 
 // Function to extract YouTube video ID from different URL formats
-function getYoutubeVideoId(url: string) {
-  if (!url) return "";
-
-  // Handle different YouTube URL formats
-  const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/;
-  const match = url.match(regExp);
-
-  return match && match[2].length === 11 ? match[2] : "";
-}
 </script>
 
 <!-- pages/index.vue -->
@@ -112,14 +104,8 @@ function getYoutubeVideoId(url: string) {
       v-if="profile.featuredVideo"
       class="w-full rounded-lg overflow-hidden shadow-md"
     >
-      <div class="aspect-w-16 aspect-h-9">
-        <iframe
-          :src="`https://www.youtube.com/embed/${getYoutubeVideoId(profile.featuredVideo)}`"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-          class="w-full h-full rounded-lg"
-        />
+      <div class="aspect-video">
+        <YouTubeVideo :slug="profile.featuredVideo" />
       </div>
       <p
         v-if="profile.videoCaption"
@@ -139,7 +125,11 @@ function getYoutubeVideoId(url: string) {
         class="btn btn-block"
         :class="link.style"
       >
-        <Icon v-if="link.icon" :name="`${link.icon}`" />
+        <Icon
+          v-if="link.icon"
+          :name="`${link.icon}`"
+          :style="`${link.iconStyle}`"
+        />
         {{ link.title }}
       </NuxtLink>
     </div>
@@ -159,20 +149,3 @@ function getYoutubeVideoId(url: string) {
     </div>
   </div>
 </template>
-
-<style>
-/* Additional styles for responsive video embedding */
-.aspect-w-16 {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
-  height: 0;
-}
-
-.aspect-w-16 iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-</style>
