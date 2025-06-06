@@ -3,13 +3,20 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
-  devtools: { enabled: true },
+  devtools: {
+    enabled: true,
+
+    timeline: {
+      enabled: true,
+    },
+  },
   modules: [
     "@nuxt/eslint",
     "@nuxt/icon",
     "@nuxtjs/color-mode",
     "@nuxt/content",
     "@nuxt/scripts",
+    "@nuxt/image",
   ],
   vite: {
     plugins: [tailwindcss()],
@@ -19,5 +26,7 @@ export default defineNuxtConfig({
     // mode: "css",
     cssLayer: "base",
   },
+  image: {
+    domains: ["imgur.com"],
+  },
 });
-

@@ -6,8 +6,9 @@ const props = defineProps<MultiImageProps>();
 
 <template>
   <div class="flex flex-wrap justify-center">
-    <img
+    <NuxtImg
       v-for="image in props.images"
+      :key="image.image"
       :src="image.image"
       :alt="image.alt"
       class="max-h-64 max-w-64 object-contain rounded-sm"

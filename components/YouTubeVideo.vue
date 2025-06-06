@@ -14,7 +14,7 @@ defineProps<{ slug: string }>();
 
 <template>
   <div>
-    <div class="flex items-center justify-center p-5">
+    <div class="flex items-center justify-center">
       <ScriptYouTubePlayer
         ref="video"
         :video-id="slug"

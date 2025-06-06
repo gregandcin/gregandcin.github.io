@@ -92,7 +92,7 @@ const profile = reactive({
         <div
           class="w-24 h-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2"
         >
-          <img src="https://i.imgur.com/XCaMSYr.png" alt="Profile Image" />
+          <NuxtImg src="/favicon.png" alt="Profile Image" />
         </div>
       </div>
       <h1 class="mt-4 text-2xl font-bold">{{ profile.name }}</h1>

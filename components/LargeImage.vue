@@ -6,7 +6,7 @@ const props = defineProps<LargeImageProps>();
 
 <template>
   <div class="flex flex-wrap justify-center">
-    <img
+    <NuxtImg
       :src="props.image"
       :alt="props.alt"
       class="max-h-128 object-contain rounded-sm"
