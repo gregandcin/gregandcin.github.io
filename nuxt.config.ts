@@ -31,6 +31,15 @@ export default defineNuxtConfig({
   },
   image: {
     domains: ["imgur.com"],
+    format: ["webp"],
+    presets: {
+      avatar: {
+        modifiers: {
+          format: "webp",
+          width: 96,
+          height: 96,
+        },
+      },
+    },
   },
 });
-
