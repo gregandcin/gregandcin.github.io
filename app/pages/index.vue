@@ -33,28 +33,20 @@ const profile = reactive({
   links: [
     {
       id: 1,
-      title: "BEYBLADE MIDWEST 2025!",
-      url: "https://midwestbeyblade.com/pages/beyblade-midwest-2025",
-      icon: "mingcute:ice-cream-2-fill",
-      style: "btn-info btn-xl",
-      iconStyle: "color: #ff6900",
+      title: "Next Beyblade Event!",
+      url: "https://worldbeyblade.org/Thread-HOMETOWN-HEROES-BEYBLADE-X-VOL-17--119323",
+      icon: "game-icons:spinning-top",
+      style: "btn-accent btn-xl",
     },
     {
       id: 2,
-      title: "Next Beyblade Event!",
-      url: "https://worldbeyblade.org/Thread-HOMETOWN-HEROES-BEYBLADE-X-VOL-14-BEYBLADE-MIDWEST-PREVIEW",
-      icon: "game-icons:spinning-top",
-      style: "btn-accent",
-    },
-    {
-      id: 3,
       title: "YouTube",
       url: "https://youtube.com/gregnadcin",
       icon: "i-simple-icons:youtube",
       style: "btn-secondary",
     },
     {
-      id: 4,
+      id: 3,
       title: "Mastodon",
       url: "https://mindly.social/gregandcin",
       icon: "i-simple-icons:mastodon",
