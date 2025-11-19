@@ -34,7 +34,7 @@ const profile = reactive({
     {
       id: 1,
       title: "Next Beyblade Event!",
-      url: "https://worldbeyblade.org/Thread-HOMETOWN-HEROES-BEYBLADE-X-VOL-17--119323",
+      url: "https://worldbeyblade.org/Thread-HOMETOWN-HEROES-BEYBLADE-X-VOL-23--121887",
       icon: "game-icons:spinning-top",
       style: "btn-accent btn-xl",
     },
@@ -120,7 +120,7 @@ const profile = reactive({
         <Icon
           v-if="link.icon"
           :name="`${link.icon}`"
-          :style="`${link.iconStyle}`"
+          :style="`${link.style}`"
         />
         {{ link.title }}
       </NuxtLink>
