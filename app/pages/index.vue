@@ -34,7 +34,7 @@ const profile = reactive({
     {
       id: 1,
       title: "Next Beyblade Event!",
-      url: "https://worldbeyblade.org/Thread-HOMETOWN-HEROES-BEYBLADE-X-VOL-23--121887",
+      url: "https://worldbeyblade.org/Thread-HOMETOWN-HEROES-BEYBLADE-X-VOL-24--122509",
       icon: "game-icons:spinning-top",
       style: "btn-accent btn-xl",
     },
