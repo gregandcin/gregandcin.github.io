@@ -7,30 +7,36 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs",
+    "lint:fix": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix",
+    "format": "prettier --write ."
   },
   "dependencies": {
-    "@nuxt/content": "^3.8.2",
+    "@nuxt/content": "^3.14.0",
     "@nuxt/image": "^2.0.0",
-    "@nuxt/scripts": "^0.13.0",
-    "@nuxtjs/color-mode": "4.0.0",
+    "@nuxt/scripts": "^1.1.1",
+    "@nuxtjs/color-mode": "^4.0.0",
     "@unhead/vue": "^2.0.10",
-    "daisyui": "^5.5.5",
-    "eslint": "^9.26.0",
-    "nuxt": "^4.2.1",
-    "tailwindcss": "^4.1.17",
-    "vue": "^3.5.13",
-    "vue-router": "^4.5.1"
+    "better-sqlite3": "^12.10.0",
+    "daisyui": "^5.5.20",
+    "eslint": "^10.4.0",
+    "nuxt": "^4.4.6",
+    "tailwindcss": "^4.3.0",
+    "vue": "^3.5.34",
+    "vue-router": "^5.0.7"
   },
   "devDependencies": {
-    "@iconify-json/game-icons": "^1.2.3",
-    "@iconify-json/mingcute": "^1.2.5",
-    "@iconify-json/simple-icons": "^1.2.59",
-    "@nuxt/eslint": "1.10.0",
-    "@nuxt/icon": "^2.1.0",
+    "@iconify-json/game-icons": "^1.2.4",
+    "@iconify-json/mingcute": "^1.2.7",
+    "@iconify-json/ph": "^1.2.2",
+    "@iconify-json/simple-icons": "^1.2.83",
+    "@nuxt/eslint": "^1.15.2",
+    "@nuxt/icon": "^2.2.2",
     "@tailwindcss/typography": "^0.5.19",
-    "@tailwindcss/vite": "^4.1.17",
-    "@types/youtube": "^0.1.2"
+    "@tailwindcss/vite": "^4.3.0",
+    "@types/youtube": "^0.1.2",
+    "prettier": "3.8.3"
   },
   "volta": {
     "node": "22.16.0"
